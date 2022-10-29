@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+        background-image: linear-gradient(142deg,#ece475, #e5f0ed);
+        /* font-family: "Lato", sans-serif;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        margin: 0; */
+}
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    grid-template-columns: repeat(3, 100px);
+    /* margin-top: 200px; */
+    gap: 5px;
+}
+
+.all {
+    margin-top: 200px;
+}
+
+.cal {
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: #280642;
+    color: white;
+    font-size: large;
+}
+
+.cal:hover {
+    background-color: rgb(113, 233, 129);
+}
